@@ -15,8 +15,8 @@
         }
 
         :root {
-            --green: #00C875;
-            --green-dark: #00A862;
+            --green: #4B9CD3;
+            --green-dark: #2D7DB3;
             --navy: #0B1F3A;
             --navy-light: #24344F;
             --text-body: #4A5568;
@@ -139,7 +139,7 @@
             right: -150px;
             width: 500px;
             height: 500px;
-            background: radial-gradient(circle, rgba(0, 200, 117, 0.12) 0%, transparent 70%);
+            background: radial-gradient(circle, rgba(75, 156, 211, 0.12) 0%, transparent 70%);
             border-radius: 50%;
         }
 
@@ -160,7 +160,7 @@
             display: inline-flex;
             align-items: center;
             gap: 0.5rem;
-            background: rgba(0, 200, 117, 0.1);
+            background: rgba(75, 156, 211, 0.1);
             color: var(--green-dark);
             padding: 0.45rem 1rem;
             border-radius: 30px;
@@ -211,12 +211,14 @@
         }
 
         .headshot-card img {
-            width: 100%;
+            width: 78%;
             aspect-ratio: 1 / 1;
             object-fit: cover;
-            border-radius: 12px;
+            border-radius: 50%;
             display: block;
-            margin-bottom: 1.25rem;
+            margin: 0 auto 1.25rem;
+            border: 6px solid white;
+            box-shadow: 0 0 0 3px rgba(75, 156, 211, 0.3), 0 14px 30px rgba(11, 31, 58, 0.12);
         }
 
         .headshot-card .hc-name {
@@ -256,7 +258,7 @@
         .btn-primary:hover {
             background: var(--green-dark);
             transform: translateY(-1px);
-            box-shadow: 0 8px 20px rgba(0, 200, 117, 0.3);
+            box-shadow: 0 8px 20px rgba(75, 156, 211, 0.3);
         }
 
         .btn-outline {
@@ -423,7 +425,7 @@
 
         .exp-card:hover {
             box-shadow: 0 12px 30px rgba(11, 31, 58, 0.07);
-            border-color: rgba(0, 200, 117, 0.35);
+            border-color: rgba(75, 156, 211, 0.35);
         }
 
         .exp-top {
@@ -504,7 +506,7 @@
             right: -40px;
             width: 140px;
             height: 140px;
-            background: radial-gradient(circle, rgba(0, 200, 117, 0.25) 0%, transparent 70%);
+            background: radial-gradient(circle, rgba(75, 156, 211, 0.25) 0%, transparent 70%);
         }
 
         .achieve-num {
@@ -588,7 +590,7 @@
             left: -80px;
             width: 300px;
             height: 300px;
-            background: radial-gradient(circle, rgba(0, 200, 117, 0.2) 0%, transparent 70%);
+            background: radial-gradient(circle, rgba(75, 156, 211, 0.2) 0%, transparent 70%);
         }
 
         .contact-cta h2 {
@@ -713,7 +715,7 @@
     <!-- Navigation -->
     <nav>
         <div class="container">
-            <div class="logo"><span class="logo-dot"></span>Trusted advisor - Relationship Builder</div>
+            <div class="logo"><span class="logo-dot"></span>The Relationship Builder</div>
             <button class="mobile-menu-btn" onclick="document.getElementById('navMenu').classList.toggle('active')">☰</button>
             <ul id="navMenu">
                 <li><a href="#about">About</a></li>
@@ -735,7 +737,7 @@
                     <h1 class="hero-name">Fares Amari</h1>
                     <p class="hero-impact">Enterprise‑ready, trusted technical leadership that's focused on outcomes.</p>
                     <p class="hero-sub">
-                        10+ years selling cloud, infrastructure, and data protection solutions to large commercial, 
+                        10+ years selling Data Center,Security, Cloud, Data Protection and A.I. solutions to large commercial, 
                         enterprise, and public sector organizations across the Gulf South and broader U.S. Proven in 
                         quota-carrying roles, account expansion, and closing strategic deals.
                     </p>
